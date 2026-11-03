@@ -10,7 +10,7 @@ void printScores(const int scores[], int n) {
 
 void curve(int scores[], int n, int points) {
   for (int i = 0; i < n; i++){
-    scores[i] = 5;
+    scores[i] += 5;
   }
 }
 
@@ -28,7 +28,7 @@ void minMax(const int scores[], int n, int& lo, int& hi) {
 bool findScore(const int scores[], int n, int target, int* where) {
   for (int i = 0; i < n; i++) {
     if (scores [i] == target){
-      if (where ! = nullptr)
+      if (where != nullptr)
       *where = i;
     return true;
     }
