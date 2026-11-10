@@ -12,7 +12,7 @@ Work without a working video link is incomplete.
 
 The video is half the grade. Show the run, then explain which variables each function changed and why.
 
-**Your demo:** _add your link here_
+**Your demo:** https://drive.google.com/file/d/1UMmiGz3oKXhpWLBij92D_JdWmMUhXMni/view?usp=sharing
 
 
 ## What to build
@@ -34,6 +34,11 @@ Three small functions that work on one array of scores. Each function receives i
 - Pass the size `n` with every array. Do not use `sizeof` inside a function
 - Use `const` on array parameters the function only reads
 - README: one sentence for each function saying how its data gets in and out
+
+  -Print scores: It receives an array and the size, then it prints each score without returning anything.
+  -minMax: It receives an array and the size, then it sends the lowest and highest scores back through references.
+  -Curve: It receives an arrow and the size, and it adds 5 to every score, then it modifies the original array.
+  -findScore: Receives an array and the size, and also a target score, then it returns true or false and optionally sends the matching index back through a pointer.
 
 ## Sample session
 
